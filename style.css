@@ -1,0 +1,109 @@
+body {
+   background-color: cadetblue;
+}
+button {
+   margin: 15px auto;
+   font-family: Tahoma, sans-serif;
+   font-weight: 600;
+   font-size: 16px;
+}
+h3 {
+   font-style: italic;
+   font-weight: 700;
+   font-family:  Arial, sans-serif;
+   font-size: 19px;
+   border-bottom: seagreen 2px solid;
+}
+.styled {
+   background-color: rgb(201, 190, 190);
+   width: 8em;
+   height: 2em;
+   outline-style: none;
+   border: palegoldenrod 1px solid;
+}
+.icon {
+   height: 2.5em;
+   border-top: rgb(61, 16, 16) 2px solid;
+   border-bottom: rgb(61, 16, 16) 2px solid;
+   border-radius: 5px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   -ms-border-radius: 5px;
+   -o-border-radius: 5px;
+}
+.size button {
+   color: rgb(5, 75, 16);
+   border: rgb(1, 36, 6) 3px solid;
+   padding: 2px;
+   border-bottom-left-radius: 3px;
+   border-top-right-radius: 4px;
+}
+.size-sm {
+   font-size: 20px;
+}
+.size-md {
+   font-size: 25px;
+}
+.size-lg {
+   font-size: 28px;
+}
+.color button {
+   padding: 2px 9px;
+   height: 40px;
+   border: none;
+   outline-style: none;
+   border-radius: 6px;
+   margin: auto 7px;
+}
+.color-primary {
+   background-color: rgb(11, 61, 211);
+   color: snow;
+}
+.color-secondary {
+   background-color: rgb(58, 62, 75);
+   color: snow;
+}
+.color-danger {
+   background-color: rgb(211, 11, 11);
+   color: snow;
+}
+i {
+   color: blue;
+   font-size: 20px;
+}
+.hover-focus button {
+   padding: 2px 9px;
+   height: 40px;
+   border: 	rgb(26, 0, 0) 2px solid;
+   outline-style: none;
+   border-radius: 6px;
+   margin: 7px 7px;
+}
+.hf-primary:hover {
+   background-color: rgb(11, 61, 211);
+   color: snow;
+   transition: 0.6s ease-in-out;
+}
+.hf-secondary:hover {
+   background-color: rgb(58, 62, 75);
+   color: snow;
+   transition: 0.6s ease-in-out;
+}
+.hf-danger:hover {
+   background-color: rgb(211, 11, 11);
+   color: snow;
+   transition: 0.6s ease-in-out;
+}
+.hf-primary:focus {
+   background-color: rgb(11, 61, 211);
+   transition: 0.6s ease-out;
+}
+.hf-secondary:focus {
+   background-color: rgb(58, 62, 75);
+   transition: 0.6s ease-out;
+}
+.hf-danger:focus {
+   background-color: rgb(211, 11, 11);
+   transition: 0.6s ease-out;
+
+}
